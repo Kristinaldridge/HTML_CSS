@@ -1,0 +1,49 @@
+form {
+    width: 400px;
+    height: 500px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+    color: white ;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+}
+
+h1 + h5 {margin-top: -1em;}
+
+.button {
+    color: red;
+    height: 50px;
+    width: 400px;
+}
+
+input {
+    height: 50px;
+    width: 394px;
+    background-color: palevioletred;
+    border: 1px solid black
+}
+
+select {
+    height: 50px;
+    width: 400px;
+    background-color: palevioletred;
+    border: 1px solid black;
+    color: white;}
+
+    ::placeholder {
+        color: whitesmoke;
+    }
+
+option { 
+    background-color: white;
+    color: whitesmoke;
+}
+
+   

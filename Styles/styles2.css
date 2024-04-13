@@ -1,0 +1,55 @@
+h2 ~ p {color:orange}
+
+.flex-container{
+    display: flex;
+    border: 1px solid grey;
+    background-color: grey;
+    margin: 1em;
+}
+
+.box {
+    border: 1px solid black;
+    height: 80px;
+    width: 80px;
+}
+
+#one {
+    background-color: blue;
+}
+
+#two {
+    background-color: red;
+}
+
+#three {
+    background-color: yellow;
+}
+
+#four {
+    background-color: green;
+}
+
+.justify-content{
+    display: flex;
+    border: 1px solid grey;
+    background-color: grey;
+    margin: 1em;
+    justify-content: space-between;
+}
+
+.align-items{
+    display: flex;
+    border: 1px solid grey;
+    background-color: grey;
+    margin: 1em;
+    flex-direction: column;
+    align-items: center;}
+
+.align-content{
+        display: flex;
+        border: 1px solid grey;
+        background-color: grey;
+        margin: 1em;
+        width: 150px;
+        height: 300px;
+        align-content: space-between;}
